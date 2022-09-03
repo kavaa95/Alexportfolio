@@ -14,12 +14,12 @@ function About() {
             className="object-contain  w-full rounded-md  "
           />
           <div className="w-full  px-12 md:px-16  lg:h-[80vh] flex flex-col justify-center items-center ">
-            <span className="block mb-2 text-[#f9004d] lg:text-2xl">
+            <h1 className="text-5xl font-extrabold dark:text-gray-50 lg:text-7xl ">
+              Alex Kavanagh
+            </h1>
+            <span className="block mb-2 pt-[5%] text-[#f9004d] lg:text-2xl">
               Full Stack Software engineer
             </span>
-            <h1 className="text-5xl font-extrabold dark:text-gray-50 lg:text-8xl ">
-              About Me
-            </h1>
             <p className="my-8 lg:text-1xl lg:text-justify">
               I don't like to define myself by the work I've done. I define
               myself by the work I want to do. Skills can be taught, personality
