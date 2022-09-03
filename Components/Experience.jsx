@@ -3,11 +3,6 @@ import GiftComponents from "./GiftComponents";
 function Experience() {
   return (
     <div>
-      <GiftComponents
-        src="https://giphy.com/embed/SiEIl8kjIMrKzhMkem"
-        width="480px"
-        height="270px"
-      />
       <section class="text-gray-600 w-full">
         <p>EXPERIENCE</p>
         <div class="container px-5 py-24 mx-auto">

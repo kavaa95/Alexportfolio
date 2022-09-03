@@ -6,46 +6,14 @@ import Image from "next/image";
 function About() {
   return (
     <div className="">
-      {/* <div className="grid grid-cols-1 lg:grid-cols-2 bg-gradient-to-t from-transparent to-black">
-        <div className=" grid lg:place-items-center    ">
-          <div className=" grid h-[25vh] md:h-[50vh] lg:h-screen lg:w-full ">
-            <Image src={bgImg} className=" object-contain lg:object-cover " />
-          </div>
-        </div>
-        <div className="lg:h-screen grid gap-10 text-white  ">
-          <div className="w-full px-6 py-16 rounded-md sm:px-12 md:px-16 xl:col-span-2 dark:bg-gray-900 ">
-            <span className="block mb-2 dark:text-violet-400 text-2">
-              Full Stack Software engineer
-            </span>
-            <h1 className="text-5xl md:text-8xl font-extrabold dark:text-gray-50">
-              About Me
-            </h1>
-            <p className="my-8 text-1xl md:text-2xl dark:text-white font-medium text-justify">
-              I don't like to define myself by the work I've done. I define
-              myself by the work I want to do. Skills can be taught, personality
-              is inherent. I prefer to keep learning, continue challenging
-              myself, and do interesting things that matter.
-            </p>
-            <p className="my-8 text-1xl md:text-2xl dark:text-white font-medium text-justify">
-              Fueled by high energy levels and boundless enthusiasm, I’m easily
-              inspired and more then willing to follow my fascinations wherever
-              they take me. I’m passionate, expressive, multi-talented spirit
-              with a natural ability to entertain and inspire. I’m never
-              satisfied to just come up with ideas. Instead I have an almost
-              impulsive need to act on them.
-            </p>{" "}
-          </div>
-        </div>
-      </div> */}
-
-      <section className="p-6 bg-gray-800 text-gray-100  bg-[#191919]">
-        <div className="container grid gap-6 mx-auto text-center  lg:grid-cols-2   ">
+      <section className=" bg-gray-800 text-gray-100  bg-[#191919]">
+        <div className=" grid gap-4 mx-auto text-center  lg:grid-cols-2   ">
           <Image
             src={bgImg}
             alt=""
-            className="object-contain lg:object-cover w-full rounded-md  bg-black"
+            className="object-contain  w-full rounded-md  "
           />
-          <div className="w-full px-6 py-16 rounded-md sm:px-12 md:px-16  lg:h-screen  ">
+          <div className="w-full  px-12 md:px-16  lg:h-[80vh] flex flex-col justify-center items-center ">
             <span className="block mb-2 text-[#f9004d] lg:text-2xl">
               Full Stack Software engineer
             </span>

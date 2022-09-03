@@ -16,8 +16,9 @@ export default function Home() {
   return (
     <div className="">
       <Hero />
+      <Banner gImage={image} height={400} />
       <About />
-      {/* <Banner gImage={image} height={400} /> */}
+
       {/* <Education /> */}
       <Experience />
       {/* <Contact /> */}
