@@ -1,43 +1,39 @@
 import React from "react";
-// import Image from "next/image";
-import bgImg from "../public/aleximg.png";
-import GiftComponents from "./GiftComponents";
+import bgImg from "../public/alexPortfolio.png";
 import Image from "next/image";
 function About() {
   return (
-    <div className="">
-      <section className=" bg-gray-800 text-gray-100  bg-[#191919]">
-        <div className=" grid gap-4 mx-auto text-center  lg:grid-cols-2   ">
-          <Image
-            src={bgImg}
-            alt=""
-            className="object-contain  w-full rounded-md  "
-          />
-          <div className="w-full  px-12 md:px-16  lg:h-[80vh] flex flex-col justify-center items-center ">
-            <h1 className="text-5xl font-extrabold dark:text-gray-50 lg:text-7xl ">
-              Alex Kavanagh
-            </h1>
-            <span className="block mb-2 pt-[5%] text-[#f9004d] lg:text-2xl">
-              Full Stack Software engineer
-            </span>
-            <p className="my-8 lg:text-1xl lg:text-justify">
-              I don't like to define myself by the work I've done. I define
-              myself by the work I want to do. Skills can be taught, personality
-              is inherent. I prefer to keep learning, continue challenging
-              myself, and do interesting things that matter.
-            </p>
-            <p className="my-8 lg:text-1xl lg:text-justify">
-              Fueled by high energy levels and boundless enthusiasm, I’m easily
-              inspired and more then willing to follow my fascinations wherever
-              they take me. I’m passionate, expressive, multi-talented spirit
-              with a natural ability to entertain and inspire. I’m never
-              satisfied to just come up with ideas. Instead I have an almost
-              impulsive need to act on them.
-            </p>
-          </div>
+    <section className=" bg-gray-800 text-gray-100  bg-[#191919]">
+      <div className=" grid gap-4 mx-auto text-center  lg:grid-cols-2   ">
+        <Image
+          src={bgImg}
+          alt="Alex Profile Image"
+          className="object-contain  w-full rounded-md  "
+        />
+        <div className="w-full  px-12 md:px-16  lg:h-[80vh] flex flex-col justify-center items-center ">
+          <h1 className="text-5xl font-extrabold dark:text-gray-50 lg:text-7xl ">
+            Alex Kavanagh
+          </h1>
+          <span className="block mb-2 pt-[5%] text-[#f9004d] lg:text-2xl">
+            Full Stack Software engineer
+          </span>
+          <p className="my-8 lg:text-1xl lg:text-justify">
+            I don't like to define myself by the work I've done. I define myself
+            by the work I want to do. Skills can be taught, personality is
+            inherent. I prefer to keep learning, continue challenging myself,
+            and do interesting things that matter.
+          </p>
+          <p className="my-8 lg:text-1xl lg:text-justify">
+            Fueled by high energy levels and boundless enthusiasm, I’m easily
+            inspired and more then willing to follow my fascinations wherever
+            they take me. I’m passionate, expressive, multi-talented spirit with
+            a natural ability to entertain and inspire. I’m never satisfied to
+            just come up with ideas. Instead I have an almost impulsive need to
+            act on them.
+          </p>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 }
 
