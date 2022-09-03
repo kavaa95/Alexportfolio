@@ -4,32 +4,47 @@ import Image from "next/image";
 function About() {
   return (
     <section className=" bg-gray-800 text-gray-100  bg-[#191919]">
-      <div className=" grid gap-4 mx-auto text-center  lg:grid-cols-2   ">
+      <div className=" grid    lg:grid-cols-2   ">
         <Image
           src={bgImg}
           alt="Alex Profile Image"
-          className="object-contain  w-full rounded-md  "
+          className="object-contain    "
         />
-        <div className="w-full  px-12 md:px-16  lg:h-[80vh] flex flex-col justify-center items-center ">
+        <div className="w-full py-[4%] px-12 md:px-16   flex flex-col justify-center items-center text-justify">
           <h1 className="text-5xl font-extrabold dark:text-gray-50 lg:text-7xl ">
-            Alex Kavanagh
+            About
           </h1>
           <span className="block mb-2 pt-[5%] text-[#f9004d] lg:text-2xl">
             Full Stack Software engineer
           </span>
-          <p className="my-8 lg:text-1xl lg:text-justify">
+          <p className="my-5 lg:text-2xl ">
+            Hi, I am <span className="text-[#ea0f1e]">Alex Kavanagh</span>, I
+            was drawn to Math since my childhood. I enjoyed the process of being
+            presented with an unsolved problem and working my way to a solution.
+            In a lot of ways, technology is a lot like Math, that’s why I chose
+            to pursue a career in the tech field. I have a thirst for knowledge
+            and want to keep learning as my priority even as I progress in my
+            career.
+          </p>
+          <p className="my-5 lg:text-2xl ">
             I don't like to define myself by the work I've done. I define myself
             by the work I want to do. Skills can be taught, personality is
             inherent. I prefer to keep learning, continue challenging myself,
             and do interesting things that matter.
           </p>
-          <p className="my-8 lg:text-1xl lg:text-justify">
+          <p className="my-5 lg:text-2xl ">
             Fueled by high energy levels and boundless enthusiasm, I’m easily
             inspired and more then willing to follow my fascinations wherever
             they take me. I’m passionate, expressive, multi-talented spirit with
             a natural ability to entertain and inspire. I’m never satisfied to
             just come up with ideas. Instead I have an almost impulsive need to
             act on them.
+          </p>
+          <p className="my-5 lg:text-2xl ">
+            My abundant energy fuels me in the pursuit of many interests,
+            hobbies, areas of study and artistic endeavors. I’m a fast learner,
+            able to pick up new skills and juggle different projects and roles
+            with relative ease.
           </p>
         </div>
       </div>
