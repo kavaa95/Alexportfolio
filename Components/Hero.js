@@ -34,7 +34,6 @@ function Hero() {
 
   setTimeout(() => {
     setShow("");
-    console.log("you can see me after 2 seconds");
   }, 100);
 
   return (
@@ -43,16 +42,16 @@ function Hero() {
         <Sparkles
           width="100%"
           color="white"
-          count={20}
+          count={30}
           minSize={2}
-          maxSize={7}
-          // overflowPx={50}
+          maxSize={10}
+          overflowPx={50}
           fadeOutSpeed={10}
           flicker={false}
         />
 
         <div className="h-[40vh]  md:h-screen w-full bg-black">
-          <div className={`grid items-center h-[40vh] md:h-screen ${show}`}>
+          <div className={`grid items-center  md:h-screen ${show}`}>
             <Fade top>
               <GiftComponents
                 src="https://giphy.com/embed/3o7WIB00yXujVt4WEo"
@@ -62,7 +61,7 @@ function Hero() {
             </Fade>
           </div>
         </div>
-        <div className="absolute top-[30%]  right-[2%] flex flex-col place-items-center h-screen text-[6vw] font-bold">
+        <div className="absolute top-[30%]  right-[2%] flex flex-col place-items-center  text-[6vw] font-bold">
           <div className="flex gap-6">
             <Fade bottom>
               <h1>Hello </h1>
@@ -74,7 +73,7 @@ function Hero() {
             </Fade>
           </div>
           <Fade bottom delay={500}>
-            <h1>Welcome to my world.</h1>
+            <h5>Welcome to my world</h5>
           </Fade>
           <Fade bottom big delay={600}>
             <p className="text-[1vw] mt-8 tracking-widest">
