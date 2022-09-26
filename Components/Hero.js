@@ -34,7 +34,6 @@ function Hero() {
 
   setTimeout(() => {
     setShow("");
-    console.log("you can see me after 2 seconds");
   }, 100);
 
   return (
@@ -74,7 +73,7 @@ function Hero() {
             </Fade>
           </div>
           <Fade bottom delay={500}>
-            <h1>Welcome to my world.</h1>
+            <h5>Welcome to my world</h5>
           </Fade>
           <Fade bottom big delay={600}>
             <p className="text-[1vw] mt-8 tracking-widest">

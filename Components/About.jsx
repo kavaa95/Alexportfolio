@@ -5,11 +5,13 @@ function About() {
   return (
     <section className=" bg-gray-800 text-gray-100  bg-[#191919]">
       <div className=" grid    lg:grid-cols-2   ">
-        <Image
-          src={bgImg}
-          alt="Alex Profile Image"
-          className="object-contain    "
-        />
+        <div className="grid p-[6vw]">
+          <Image
+            src={bgImg}
+            alt="Alex Profile Image"
+            className="object-contain    "
+          />
+        </div>
         <div className="w-full py-[4%] px-12 md:px-16   flex flex-col justify-center items-center text-justify">
           <h1 className="text-5xl font-extrabold dark:text-gray-50 lg:text-7xl ">
             About
@@ -26,12 +28,7 @@ function About() {
             and want to keep learning as my priority even as I progress in my
             career.
           </p>
-          <p className="my-5 lg:text-2xl ">
-            I don't like to define myself by the work I've done. I define myself
-            by the work I want to do. Skills can be taught, personality is
-            inherent. I prefer to keep learning, continue challenging myself,
-            and do interesting things that matter.
-          </p>
+
           <p className="my-5 lg:text-2xl ">
             Fueled by high energy levels and boundless enthusiasm, I’m easily
             inspired and more then willing to follow my fascinations wherever

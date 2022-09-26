@@ -1,67 +1,17 @@
 import React from "react";
+import EducationList from "./EducationList";
+import EducationListHolder from "./EducationListHolder";
 import GiftComponents from "./GiftComponents";
 function Experience() {
   return (
-    <div>
-      <section class="text-gray-600 w-full">
-        <p>EXPERIENCE</p>
-        <div class="container px-5 py-24 mx-auto">
-          <div class="-my-8 divide-y-2 divide-gray-100">
-            <div class="py-8 flex flex-wrap md:flex-nowrap">
-              <div class=" md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                <span class="font-semibold title-font dark:text-white">
-                  SCHOOL
-                </span>
-                <span class="mt-1 dark:text-white text-sm">
-                  <iframe
-                    src="https://giphy.com/embed/YMYucg1qWuVpHKS6dG"
-                    width="80"
-                    height="80"
-                    frameBorder="0"
-                    class="giphy-embed"
-                    allowFullScreen
-                  ></iframe>
-                </span>
-              </div>
-              <div class="md:flex-grow ml-12">
-                <h2 class="text-2xl font-medium dark:text-white title-font mb-2">
-                  Farmingdale State College
-                </h2>
-                <span class="mt-1 dark:text-white text-sm">
-                  Bachelor of Science-BS, Applied Mathematics
-                </span>
-                <p class="leading-relaxed dark:text-white">2015-2022</p>
-              </div>
-            </div>
-            <div class="py-8 flex flex-wrap md:flex-nowrap">
-              <div class=" md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                <span class="font-semibold title-font dark:text-white">
-                  SCHOOL
-                </span>
-                <span class="mt-1 dark:text-white text-sm">
-                  <iframe
-                    src="https://giphy.com/embed/YMYucg1qWuVpHKS6dG"
-                    width="80"
-                    height="80"
-                    frameBorder="0"
-                    class="giphy-embed"
-                    allowFullScreen
-                  ></iframe>
-                </span>
-              </div>
-              <div class="md:flex-grow ml-12">
-                <h2 class="text-2xl font-medium dark:text-white title-font mb-2">
-                  Farmingdale State College
-                </h2>
-                <span class="mt-1 dark:text-white text-sm">
-                  Bachelor of Science-BS, Applied Mathematics
-                </span>
-                <p class="leading-relaxed dark:text-white">2015-2022</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+    <div className="">
+      <div className="w-full  text-white text-center">
+        <p class="text-[4vw] font-medium text-white">EDUCATION</p>
+      </div>
+      <div className="grid sm:grid-col-1 md:grid-cols-2 m-5 gap-5 ">
+        <EducationListHolder />
+        <EducationListHolder />
+      </div>
     </div>
   );
 }
